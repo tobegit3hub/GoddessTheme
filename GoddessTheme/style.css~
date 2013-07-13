@@ -1,0 +1,25 @@
+/*
+Theme Name: Goddness Theme
+Theme URI: http://www.chendihao.cn/
+Description: It's the wordpress theme for tobe.
+Author: tobe
+Author URI: http://www.chendihao.com/
+Version: 2.3.1
+Tags: bootstrap, simple, tobe
+ 
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+*/
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+body { 
+     padding-top: 60px; 
+     padding-bottom: 60px; 
+}
+
+.form-search {
+	margin-top: 0px;
+}
+
