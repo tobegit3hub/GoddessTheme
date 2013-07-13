@@ -13,8 +13,10 @@
 	<p class="post_time"><?php the_time('F jS, Y'); ?></p>
 
 	<div class="post_content"><?php the_content(); ?></div>
-
+	
+	<br />
 	<hr />
+	<br />
 	
    <?php endwhile; else: ?>
 	  <p><?php _e('太尴尬了::>_<::'); ?></p>
