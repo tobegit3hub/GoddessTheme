@@ -1,5 +1,4 @@
 
-
 <?php get_header(); ?>
 
 <div class="row">
@@ -8,7 +7,7 @@
 
    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-	  <h1 class="post_title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1> 
+	<h1 class="post_title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1> 
 
 	<p class="post_time"><?php the_time('F jS, Y'); ?></p>
 
