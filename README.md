@@ -22,3 +22,6 @@ GooddessTheme is a simple, concise and standard theme for WordPress. It's develo
 * Bootstrap
 * Chrome
 * Emacs
+
+## Screenshot
+![GoddessTheme](https://github.com/tobegit3hub/GoddessTheme/blob/master/GoddessTheme/screenshot.png)
