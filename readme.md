@@ -16,7 +16,7 @@ GooddessTheme is a simple, concise and standard theme for WordPress. It's develo
 * Set the classes to decorate your website.
 * Make a screenshot.png before you test.
 
-## Thanks to
+## Develop Tools
 * WordPress
 * JQuery
 * Bootstrap
