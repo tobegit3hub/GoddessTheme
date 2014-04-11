@@ -12,7 +12,7 @@
       <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sideba('Fourth_sidebar') ) : ?>
             <h4>Archives</h4>
             <ul>
-                  <?php wp_get_archives('limit=10'); ?>
+                  <?php wp_get_archives('show_post_count=true'); ?>
             </ul>
       <?php endif; ?>
 
