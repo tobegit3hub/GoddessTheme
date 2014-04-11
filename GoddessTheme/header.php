@@ -4,8 +4,8 @@
     
     <title><?php wp_title('|',1,'right'); ?> <?php bloginfo('name'); ?></title>
 
-  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,8 +16,8 @@
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/bootstrap.js"></script>
@@ -38,21 +38,17 @@
             <span class="icon-bar"></span>
           </a>
           
-	<a class="brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
+	        <a class="brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
 
           <div class="nav-collapse collapse">
+            
+		        <ul class="nav">
+		          <?php wp_list_pages(array('title_li' => '')); ?>
+		        </ul>
 
-
-		<ul class="nav">
-		  <?php wp_list_pages(array('title_li' => '')); ?>
-		</ul>
-
-
-		<form class="navbar-search pull-right">
-		  <input name="s" type="text" class="search-query" placeholder="Search">
-		  </form>
-
-
+		        <form class="navbar-search pull-right">
+		          <input name="s" type="text" class="search-query" placeholder="Search">
+		        </form>
 
           </div><!--/.nav-collapse -->
         </div>
